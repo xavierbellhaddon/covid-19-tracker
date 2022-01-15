@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Covid-19 Tracker</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-    crossorigin=""/>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
 </head>
+
 <body>
     <div id="map" class="map"></div>
 
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-    crossorigin=""></script>
+    <div class="statistics">
+        <div class="statistics__inner-container">
+            <h2 class="statistics__heading">location</h2>
+            <div class="statistics__row">
+                <div class="statistics__item statistics__total-cases">
+                    <h3 class="statistics__item-heading">Total cases</h3>
+                </div>
+                <div class="statistics__item statistics__new-cases">
+                    <h3 class="statistics__item-heading">New cases</h3>
+                </div>
+                <div class="statistics__item statistics__deaths">
+                    <h3 class="statistics__item-heading">Deaths</h3>
+                </div>
+            </div>
+            <div class="statistics__row">
+                <div class="statistics__item statistics__initiated">
+                    <h3 class="statistics__item-heading">Initiated vaccinations</h3>
+                </div>
+                <div class="statistics__item statistics__completed">
+                    <h3 class="statistics__item-heading">Completed vaccinations</h3>
+                </div>
+                <div class="statistics__item statistics__total-vaccinations">
+                    <h3 class="statistics__item-heading">Total vaccinations</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
+    </script>
 </body>
+
 </html>
