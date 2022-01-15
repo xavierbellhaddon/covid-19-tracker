@@ -22,9 +22,17 @@ html, body {
     height: 20rem;
 }
 
+#myChart {
+    height: 20rem;
+    padding: 1.6rem;
+    width: 100%;
+    /* background: red;  */
+}
+
 .statistics {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .statistics__inner-container {
