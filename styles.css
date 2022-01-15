@@ -38,6 +38,7 @@ html, body {
     background-color: #211636;
     border-radius: 0.3rem;
     margin: 1.6rem;
+    margin-top: 3.2rem;
     padding: 3.2rem;
     width: 100%;
 }
@@ -52,4 +53,29 @@ html, body {
 
 .statistics__item {
     margin-bottom: 1.6rem;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search__inner-container {
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.search__input {
+    padding: 0.8rem;
+}
+
+.search__input, .search__button {
+    background-color: transparent;
+    border: none;
+}
+
+.search__input, .fas.fa-search {
+    color: #160f24;
 }

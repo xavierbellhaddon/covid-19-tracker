@@ -7,12 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Covid-19 Tracker</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/872dbb55a3.js" crossorigin="anonymous"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
 </head>
 
 <body>
     <div id="map" class="map"></div>
+
+    <div class="search">
+        <div class="search__inner-container">
+            <input type="text" class="search__input">
+            <button class="search__button"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
 
     <div class="statistics">
         <div class="statistics__inner-container">
