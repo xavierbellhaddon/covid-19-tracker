@@ -23,10 +23,9 @@ html, body {
 }
 
 #myChart {
-    height: 20rem;
     padding: 1.6rem;
+    padding-top: 0;
     width: 100%;
-    /* background: red;  */
 }
 
 .statistics {
