@@ -18,6 +18,13 @@ html, body {
     min-width: 100%;
 }
 
+h1 {
+    margin-bottom: 3.2rem;
+    margin-top: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 #map {
     height: 20rem;
 }
