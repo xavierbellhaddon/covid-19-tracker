@@ -8,6 +8,8 @@ html {
 }
 
 body {
+    background-color: #160f24;
+    color: #ffffff;
     font-size: 1.6rem;
 }
 
@@ -17,5 +19,24 @@ html, body {
 }
 
 #map {
-    height: 40rem;
+    height: 20rem;
+    margin-bottom: 1.6rem;
+}
+
+.statistics {
+    display: flex;
+    justify-content: center;
+}
+
+.statistics__inner-container {
+    background-color: #211636;
+    border-radius: 0.3rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    padding: 3.2rem;
+    width: 100%;
+}
+
+.statistics__heading, .statistics__item-heading {
+    text-align: center;
 }
