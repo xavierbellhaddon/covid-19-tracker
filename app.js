@@ -7,7 +7,10 @@ container: "map",
 style: "mapbox://styles/xavierbellhaddon/ckyg92dg21rh014p71gtsvm5e",
 center: [-96, 39],
 zoom: 1,
+attributionControl: false,
+logoPosition: 'top-left'
 });
+map.addControl(new mapboxgl.AttributionControl(), 'top-right');
 
 // Chart
 
