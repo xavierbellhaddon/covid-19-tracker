@@ -30,38 +30,44 @@
     <div class="statistics">
         <div class="statistics__inner-container">
             <h2 class="statistics__heading">[location]</h2>
-            <div class="statistics__row">
-                <div class="statistics__item statistics__total-cases">
-                    <h3 class="statistics__item-heading">Total cases</h3>
-                    <p class="statistics__item-text">[number]</p>
+            <div class="statistics__column-wrapper">
+                <div class="statistics__column statistics__column_left">
+                    <div class="statistics__item statistics__total-cases">
+                        <h3 class="statistics__item-heading">Total cases</h3>
+                        <p class="statistics__item-text">[number]</p>
+                    </div>
+                    <div class="statistics__item statistics__new-cases">
+                        <h3 class="statistics__item-heading">New cases (7 days)</h3>
+                        <p class="statistics__item-text">[number]</p>
+                    </div>
+                    <div class="statistics__item statistics__deaths">
+                        <h3 class="statistics__item-heading">Deaths</h3>
+                        <p class="statistics__item-text">[number]</p>
+                    </div>
                 </div>
-                <div class="statistics__item statistics__new-cases">
-                    <h3 class="statistics__item-heading">New cases (7 days)</h3>
-                    <p class="statistics__item-text">[number]</p>
-                </div>
-                <div class="statistics__item statistics__deaths">
-                    <h3 class="statistics__item-heading">Deaths</h3>
-                    <p class="statistics__item-text">[number]</p>
-                </div>
-            </div>
-            <div class="statistics__row">
-                <div class="statistics__item statistics__total-vaccinations">
-                    <h3 class="statistics__item-heading">Total vaccinations</h3>
-                    <p class="statistics__item-text">[number]</p>
-                </div>
-                <div class="statistics__item statistics__initiated">
-                    <h3 class="statistics__item-heading">Initiated vaccinations</h3>
-                    <p class="statistics__item-text">[number]</p>
-                </div>
-                <div class="statistics__item statistics__completed">
-                    <h3 class="statistics__item-heading">Completed vaccinations</h3>
-                    <p class="statistics__item-text">[number]</p>
+                <div class="statistics__column statistics__column_right">
+                    <div class="statistics__item statistics__total-vaccinations">
+                        <h3 class="statistics__item-heading">Total vaccinations</h3>
+                        <p class="statistics__item-text">[number]</p>
+                    </div>
+                    <div class="statistics__item statistics__initiated">
+                        <h3 class="statistics__item-heading">Initiated vaccinations</h3>
+                        <p class="statistics__item-text">[number]</p>
+                    </div>
+                    <div class="statistics__item statistics__completed">
+                        <h3 class="statistics__item-heading">Completed vaccinations</h3>
+                        <p class="statistics__item-text">[number]</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <canvas id="myChart" class="myChart"></canvas>
+    <div class="chart">
+        <div class="chart__inner-container">
+            <canvas id="myChart" class="myChart"></canvas>
+        </div>
+    </div>
 
     <script src="chart.js/dist/chart.min.js"></script>
     <script src="app.js"></script>

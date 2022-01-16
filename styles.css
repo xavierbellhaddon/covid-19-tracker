@@ -33,39 +33,6 @@ h1 {
 #myChart {
     padding: 1.6rem;
     padding-top: 0;
-    width: 100%;
-}
-
-.statistics {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.statistics__inner-container {
-    border: 0.1rem solid #432c6d;
-    border-radius: 0.3rem;
-    margin: 1.6rem;
-    margin-top: 3.2rem;
-    padding: 3.2rem;
-    width: 100%;
-}
-
-.statistics__heading {
-    margin-bottom: 3.2rem;
-}
-
-.statistics__heading, .statistics__item-heading, .statistics__item-text {
-    text-align: center;
-}
-
-.statistics__item {
-    margin-bottom: 1.6rem;
-}
-
-.search {
-    display: flex;
-    justify-content: center;
 }
 
 .search__inner-container {
@@ -86,4 +53,67 @@ h1 {
 
 .search__input, .fas.fa-search {
     color: #160f24;
+}
+
+.statistics {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.statistics__inner-container {
+    border: 0.1rem solid #432c6d;
+    border-radius: 0.3rem;
+    margin: 1.6rem;
+    margin-bottom: 3.2rem;
+    margin-top: 4.7rem;
+    padding: 3.2rem;
+    width: 100%;
+}
+
+.statistics__heading {
+    margin-bottom: 3.2rem;
+}
+
+.statistics__heading, .statistics__item-heading, .statistics__item-text {
+    text-align: center;
+}
+
+.statistics__item {
+    margin-bottom: 3.2rem;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #map {
+        height: 40rem;
+    }
+    .statistics__inner-container, .chart__inner-container {
+        width: 75rem;
+    }
+    .statistics__column-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .statistics__column_left {
+        margin-right: 3.2rem;
+    }
+    .statistics__column_right {
+        margin-left: 3.2rem;
+    }
+    .chart {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #map {
+        height: 60rem;
+    }
 }
