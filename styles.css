@@ -30,11 +30,6 @@ h1 {
     height: 20rem;
 }
 
-#myChart {
-    padding: 1.6rem;
-    padding-top: 0;
-}
-
 .search__inner-container {
     background-color: #ffffff;
     border-radius: 0.3rem;
@@ -86,6 +81,11 @@ h1 {
 .search {
     display: flex;
     justify-content: center;
+}
+
+.chart {
+    padding: 1.6rem;
+    padding-top: 0;
 }
 
 
